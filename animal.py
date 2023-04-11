@@ -12,7 +12,7 @@ class Animal:
     def peso(self):
         return self.__peso
     
-    @setter.peso()
+    @peso.setter
     def peso(self, peso):
         self.__peso = peso
 
@@ -20,9 +20,9 @@ class Animal:
     def posicao(self):
         return self.__posicao
 
-    @setter.posicao()
+    @posicao.setter
     def posicao(self, pos):
         self.__posicao = pos
 
-    def morverse(self):
+    def moverse(self):
         self.__posicao += 1
